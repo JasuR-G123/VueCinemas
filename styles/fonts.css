@@ -27,3 +27,9 @@
     src: url(../fonts/Montserrat-Regular.ttf) format("truetype");
     font-weight: 400;
 }
+
+@font-face {
+    font-family: "RM";
+    src: url(../fonts/Roboto-Medium.ttf) format("truetype");
+    font-weight: 500;
+}

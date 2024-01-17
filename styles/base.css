@@ -10,6 +10,7 @@ body {
     font-family: var(--CR);
     font-weight: 400;
     background: var(--bg);
+    color: var(--white);
 }
 
 .container {
@@ -27,10 +28,29 @@ body {
     --bg: #040D1F;
     --orange: #F18128;
     --lightOrange: #ED8E00;
-    
+
     --CR: 'CR', sans-serif;
     --CB: 'CB', sans-serif;
     --RR: 'RR', sans-serif;
     --MR: 'MR', sans-serif;
     --MB: 'MB', sans-serif;
+    --RM: 'RM', sans-serif;
+}
+
+.btn {
+    width: 166px;
+    height: 48px;
+    border: none;
+    border-radius: 5px;
+    background: var(--orange);
+    font-family: var(--RM);
+    font-size: 14px;
+    font-weight: 500;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: var(--bg);
+    color: var(--white);
 }
